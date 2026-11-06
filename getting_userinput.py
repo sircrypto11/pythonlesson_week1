@@ -1,6 +1,7 @@
-# name=input("enter name:")
-# age=int(input("Enter your age"))
-# print(f"hello {name},you are {2026-age} years old")
+name=input("enter name:")
+age=int(input("Enter your age"))
+DoB= age
+print(f"hello {name},you were born in {2026-age} years old. You are {2026-age}")
 
 age=2
 if age<0 or age>200:
